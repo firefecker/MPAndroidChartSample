@@ -100,6 +100,7 @@ public class StackedBarActivity extends BaseActivity implements OnChartValueSele
         mBarChart.setDrawBarShadow(false);
         mBarChart.setDrawValueAboveBar(false);
         mBarChart.setHighlightFullBarEnabled(false);
+        mBarChart.setScaleEnabled(false);// 是否可以缩放
 
         // 改变y标签的位置
         YAxis leftAxis = mBarChart.getAxisLeft();
